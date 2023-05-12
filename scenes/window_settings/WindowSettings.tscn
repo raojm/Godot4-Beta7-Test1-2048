@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dfhb2na6ha3oo"]
 
-[ext_resource type="Script" path="res://src/main/main/gui/window_settings/WindowSettings.gd" id="1_6jdnp"]
-[ext_resource type="PackedScene" uid="uid://dtoohfvpu78v6" path="res://src/main/main/gui/window_settings/WindowSettingsGUI.tscn" id="2_n5l0q"]
+[ext_resource type="Script" path="res://scenes/window_settings/WindowSettings.gd" id="1_6jdnp"]
+[ext_resource type="PackedScene" uid="uid://dtoohfvpu78v6" path="res://scenes/window_settings/WindowSettingsGUI.tscn" id="2_n5l0q"]
 
 [node name="WindowSettings" type="Window"]
 title = "!setting"

@@ -36,7 +36,8 @@ var element_size : Vector2i = Vector2i(64, 64):
 		_ValueBackground.position.x = - element_size.x / 2
 		_ValueBackground.position.y = - element_size.y / 2
 		_ValueBackground.pivot_offset = element_size / 2
-		_GridBackground.size = _ValueBackground.size
+		_GridBackground.set_deferred("size", _ValueBackground.size)
+		#_GridBackground.size = _ValueBackground.size
 		_GridBackground.position = _ValueBackground.position
 		_GridBackground.pivot_offset = _ValueBackground.pivot_offset
 

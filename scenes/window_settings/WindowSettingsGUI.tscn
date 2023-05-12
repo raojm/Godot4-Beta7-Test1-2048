@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dtoohfvpu78v6"]
 
-[ext_resource type="Script" path="res://src/main/main/gui/window_settings/WindowSettingsGUI.gd" id="1_nxhgy"]
+[ext_resource type="Script" path="res://scenes/window_settings/WindowSettingsGUI.gd" id="1_nxhgy"]
 
 [node name="WindowSettingsGUI" type="MarginContainer"]
 offset_right = 199.0

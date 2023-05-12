@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://byi3vee7ne5ry"]
 
-[ext_resource type="Theme" uid="uid://bkcfr87v0i1wm" path="res://assets/theme/default_theme.tres" id="1_ad4td"]
-[ext_resource type="Script" path="res://src/main/element/Element.gd" id="1_heyb8"]
+[ext_resource type="Theme" uid="uid://bkcfr87v0i1wm" path="res://assets/theme/default_theme.tres" id="1_l5l5h"]
+[ext_resource type="Script" path="res://scenes/element/Element.gd" id="2_ww4l5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xual7"]
 bg_color = Color(0.682353, 0.682353, 0.682353, 1)
@@ -29,11 +29,12 @@ expand_margin_bottom = 1.0
 [node name="Element" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-theme = ExtResource("1_ad4td")
-script = ExtResource("1_heyb8")
+theme = ExtResource("1_l5l5h")
+script = ExtResource("2_ww4l5")
 
 [node name="ValueBackground" type="Panel" parent="."]
 unique_name_in_owner = true
+layout_mode = 0
 offset_right = 64.0
 offset_bottom = 64.0
 pivot_offset = Vector2(32, 32)
@@ -41,7 +42,7 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_xual7")
 
 [node name="Value" type="Label" parent="ValueBackground"]
 unique_name_in_owner = true
-anchors_preset = 15
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
@@ -54,7 +55,7 @@ vertical_alignment = 1
 
 [node name="GridBackground" type="Panel" parent="."]
 unique_name_in_owner = true
-anchors_preset = 15
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2

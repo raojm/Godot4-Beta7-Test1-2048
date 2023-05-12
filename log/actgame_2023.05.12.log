@@ -1,0 +1,752 @@
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][17:53:06 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][17:53:06 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][17:53:06 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][17:53:06 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][17:53:06 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][17:53:06 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:13
+[NET_LOG][INFO][17:53:06 ][Connection.cpp:710] [Connect]Connect m_iSocketID:13, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][17:53:06 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:8192
+[NET_LOG][INFO][17:53:06 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][17:53:06 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][17:55:29 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][17:55:29 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][17:55:29 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][17:55:29 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][17:55:29 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][17:55:29 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:20
+[NET_LOG][INFO][17:55:29 ][Connection.cpp:710] [Connect]Connect m_iSocketID:20, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][17:55:29 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:1048576
+[NET_LOG][INFO][17:55:29 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][17:55:29 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][17:55:55 ][module_ecs.cpp:547] [L]Das ScriptUnload
+[AURORA_LOG][INFO][17:55:55 ][module_ecs.cpp:547] [L]Das true
+[AURORA_LOG][KEY][17:55:55 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][17:55:55 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][17:55:55 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][17:55:55 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][17:55:55 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][17:55:55 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][17:55:55 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][18:00:59 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][18:00:59 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][18:00:59 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][18:00:59 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][18:00:59 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][18:00:59 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:20
+[NET_LOG][INFO][18:00:59 ][Connection.cpp:710] [Connect]Connect m_iSocketID:20, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][18:00:59 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:1048576
+[NET_LOG][INFO][18:00:59 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][18:00:59 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][18:01:25 ][module_ecs.cpp:547] [L]Das ScriptUnload
+[AURORA_LOG][INFO][18:01:25 ][module_ecs.cpp:547] [L]Das true
+[AURORA_LOG][KEY][18:01:25 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:01:25 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:01:25 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:01:25 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:01:25 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:01:25 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:01:25 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][18:02:43 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][18:02:43 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][18:02:43 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][18:02:43 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][18:02:43 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][18:02:43 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:20
+[NET_LOG][INFO][18:02:43 ][Connection.cpp:710] [Connect]Connect m_iSocketID:20, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][18:02:43 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:1048576
+[NET_LOG][INFO][18:02:43 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][18:02:43 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][18:02:49 ][module_ecs.cpp:547] [L]Das ScriptUnload
+[AURORA_LOG][INFO][18:02:49 ][module_ecs.cpp:547] [L]Das true
+[AURORA_LOG][KEY][18:02:49 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:02:49 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:02:49 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:02:49 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:02:49 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:02:49 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:02:49 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][18:03:18 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][18:03:18 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][18:03:18 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][18:03:18 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][18:03:18 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][18:03:18 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:20
+[NET_LOG][INFO][18:03:18 ][Connection.cpp:710] [Connect]Connect m_iSocketID:20, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][18:03:18 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:1048576
+[NET_LOG][INFO][18:03:18 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][18:03:18 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][18:03:21 ][module_ecs.cpp:547] [L]Das ScriptUnload
+[AURORA_LOG][INFO][18:03:21 ][module_ecs.cpp:547] [L]Das true
+[AURORA_LOG][KEY][18:03:21 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:03:21 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:03:21 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:03:21 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:03:21 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]registComponentInfoTable g_stComponentInfoIDVerTypeTable: [[ 0x640001 : [[ 0x64; 0x1; ; [[]]; 0x8; 0x4]]]] 
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]Das ScriptMain
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ScriptMain input_vec2: 0,0
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]============system.PlayerSystem===================
+[AURORA_LOG][KEY][18:10:04 ][auroragame_app.cpp:138] [InitInstance]AuroraGameApp::InitInstance 
+
+[EVENT_LOG][INFO][18:10:04 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT data.changed.clientstate
+[NET_LOG][KEY][18:10:04 ][ClientFSM.cpp:53] [DoEnter]FSM: enter state0 
+[EVENT_LOG][INFO][18:10:04 ][EventSystem.cpp:258] [FireObjEvent]FIREEVENT loginfsm.changed
+[AURORA_LOG][KEY][18:10:04 ][LoginFSM.cpp:76] [DoEnter]FSM: enter state_uninitialized
+[AURORA_LOG][KEY][18:10:04 ][ConnectionManager.cpp:55] [ChangeAddress]LOGIN STEP | LOGIC SERVER CHANGE ADDRESS| BEGIN: ip: 127.0.0.1 port: 4430
+[AURORA_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:174] [Connect]TcpAndUdpConnection connect start
+[AURORA_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:190] [Connect]m_stTargetAddress name:0x11 4E 7F 00 00 01 00 00 00 00 00 00 00 00  IP:127.0.0.1 Port:4430
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:200] [Connect]connect handle == Invalid_SocketID, initialize it.
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:220] [Connect]current socket ID:20
+[NET_LOG][INFO][18:10:04 ][Connection.cpp:710] [Connect]Connect m_iSocketID:20, IP:127.0.0.1| Port:4430
+[NET_LOG][INFO][18:10:04 ][Connection.cpp:716] [Connect]Connect iConnectResult: -1 errno:36 | errstr:Operation now in progress
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:255] [Connect]connect select result:1
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:272] [Connect]stReadSocketSet isset this:0
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:273] [Connect]stWriteSocketSet isset this:1048576
+[NET_LOG][INFO][18:10:04 ][TcpAndUdpConnection.cpp:274] [Connect]stErrorSocketSet isset result:0
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27A newStructEntityID: 0X27A szComponentIDVersionName: Component_03F40000 szStructMangledName:UnrealComponent::TransformFragment info: {"path":"TransformFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":36, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_lookup InputComponentSharedFragment failed, ecs_component_init newComponentEntityID:0X285
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X285 newStructEntityID: 0X285 szComponentIDVersionName: Component_03F50000 szStructMangledName:UnrealComponent::InputComponentSharedFragment info: {"path":"UnrealComponent::InputComponentSharedFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X269 newStructEntityID: 0X269 szComponentIDVersionName: Component_03F60000 szStructMangledName:UnrealComponent::MassEntityUniqueID info: {"path":"MassEntityUniqueID", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_lookup LoginDataFragment failed, ecs_component_init newComponentEntityID:0X28B
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X28B newStructEntityID: 0X28B szComponentIDVersionName: Component_03F70000 szStructMangledName:UnrealComponent::LoginDataFragment info: {"path":"UnrealComponent::LoginDataFragment", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X282 newStructEntityID: 0X282 szComponentIDVersionName: Component_03F90000 szStructMangledName:UnrealComponent::GameRoomTag info: {"path":"GameRoomTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X283 newStructEntityID: 0X283 szComponentIDVersionName: Component_03FA0000 szStructMangledName:UnrealComponent::GameTableTag info: {"path":"GameTableTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X275 newStructEntityID: 0X275 szComponentIDVersionName: Component_03FB0000 szStructMangledName:UnrealComponent::EntityInitStatus info: {"path":"EntityInitStatus", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":1, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X277 newStructEntityID: 0X277 szComponentIDVersionName: Component_03FC0000 szStructMangledName:UnrealComponent::InputKeyArray info: {"path":"InputKeyArray", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":20, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X273 newStructEntityID: 0X273 szComponentIDVersionName: Component_03FD0000 szStructMangledName:UnrealComponent::EntitySendRequest info: {"path":"EntitySendRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27E newStructEntityID: 0X27E szComponentIDVersionName: Component_03FE0000 szStructMangledName:UnrealComponent::ServerEntityTag info: {"path":"ServerEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X27F newStructEntityID: 0X27F szComponentIDVersionName: Component_03FF0000 szStructMangledName:UnrealComponent::RequestEntityTag info: {"path":"RequestEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X280 newStructEntityID: 0X280 szComponentIDVersionName: Component_04000000 szStructMangledName:UnrealComponent::GameEntityTag info: {"path":"GameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X281 newStructEntityID: 0X281 szComponentIDVersionName: Component_04010000 szStructMangledName:UnrealComponent::LocalGameEntityTag info: {"path":"LocalGameEntityTag", "ids":[], "values":[]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_lookup BelongTo failed, ecs_component_init newComponentEntityID:0X298
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X298 newStructEntityID: 0X298 szComponentIDVersionName: Component_04020000 szStructMangledName:UnrealComponent::BelongTo info: {"path":"UnrealComponent::BelongTo", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_lookup LocalRequestTag failed, ecs_component_init newComponentEntityID:0X299
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X299 newStructEntityID: 0X299 szComponentIDVersionName: Component_04070000 szStructMangledName:UnrealComponent::LocalRequestTag info: {"path":"UnrealComponent::LocalRequestTag", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29A newStructEntityID: 0X29A szComponentIDVersionName: Component_03E90000 szStructMangledName:PlayerComponent::EnityIDComponent info: {"path":"PlayerComponent::EnityIDComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":4, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29C newStructEntityID: 0X29C szComponentIDVersionName: Component_03ED0000 szStructMangledName:PlayerComponent::VelocityComponent info: {"path":"PlayerComponent::VelocityComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X29E newStructEntityID: 0X29E szComponentIDVersionName: Component_03EE0000 szStructMangledName:PlayerComponent::InputComponent info: {"path":"PlayerComponent::InputComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":8, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A1 newStructEntityID: 0X2A1 szComponentIDVersionName: Component_03EF0000 szStructMangledName:PlayerComponent::TestComponent info: {"path":"PlayerComponent::TestComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A5 newStructEntityID: 0X2A5 szComponentIDVersionName: Component_03F30000 szStructMangledName:PlayerComponent::PlayerComponent info: {"path":"PlayerComponent::PlayerComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2A6 newStructEntityID: 0X2A6 szComponentIDVersionName: Component_04040000 szStructMangledName:PlayerComponent::GameEntityBaseInfo info: {"path":"PlayerComponent::GameEntityBaseInfo", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2AB newStructEntityID: 0X2AB szComponentIDVersionName: Component_04080000 szStructMangledName:PlayerComponent::AuthenRequest info: {"path":"PlayerComponent::AuthenRequest", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":100, "alignment":1}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B0 newStructEntityID: 0X2B0 szComponentIDVersionName: Component_03EB0000 szStructMangledName:ViewComponent::ScaleComponent info: {"path":"ViewComponent::ScaleComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B2 newStructEntityID: 0X2B2 szComponentIDVersionName: Component_03EA0000 szStructMangledName:ViewComponent::RotationComponent info: {"path":"ViewComponent::RotationComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B4 newStructEntityID: 0X2B4 szComponentIDVersionName: Component_03EC0000 szStructMangledName:ViewComponent::Translation info: {"path":"ViewComponent::Translation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":24, "alignment":8}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B6 newStructEntityID: 0X2B6 szComponentIDVersionName: Component_03F00000 szStructMangledName:ViewComponent::PositionComponent info: {"path":"ViewComponent::PositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":12, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B8 newStructEntityID: 0X2B8 szComponentIDVersionName: Component_03F10000 szStructMangledName:ViewComponent::PositionChangeComponent info: {"path":"ViewComponent::PositionChangeComponent", "ids":[["flecs.core.Component"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":0, "alignment":0}, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2B9 newStructEntityID: 0X2B9 szComponentIDVersionName: Component_03F20000 szStructMangledName:ViewComponent::UpdatePositionComponent info: {"path":"ViewComponent::UpdatePositionComponent", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":16, "alignment":4}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ecs_entity_to_json newComponentEntityID:0X2BE newStructEntityID: 0X2BE szComponentIDVersionName: Component_04060000 szStructMangledName:ViewComponent::EntityAnimation info: {"path":"ViewComponent::EntityAnimation", "ids":[["flecs.core.Component"], ["flecs.meta.MetaType"], ["flecs.meta.MetaTypeSerialized"], ["flecs.meta.Struct"], ["flecs.core.OnDelete", "flecs.core.Panic"]], "values":[{"size":2, "alignment":2}, {"kind":"StructType"}, 0, 0, 0]} 
+
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestDynamicObjecUpdate, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestDynamicObjecUpdate CS<MassEntityUniqueID> S<LoginDataFragment>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TestComponentUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TestComponentUpdate CS<MassEntityUniqueID> S<TestComponent>, Params StructType Name:PlayerComponent::TestComponent, hash:12678266181789747958
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:TimeoutChangeAnimation, m_isTimeOutFunc: true, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::TimeoutChangeAnimation CS<MassEntityUniqueID> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityCreate, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProccessEntityRequestTest, m_isTimeOutFunc: false, m_szType: server, isSystemSkip: true
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdatePlayerPosition, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @PlayerSystem::UpdatePlayerPosition CS<MassEntityUniqueID> CS<VelocityComponent> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:PositionViewSystemUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::PositionViewSystemUpdate S<MassEntityUniqueID> S<TransformFragment> CS<VelocityComponent>, Params StructType Name:PlayerComponent::VelocityComponent, hash:15744095072735299127
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:InputComponentSharedUpdate, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::InputComponentSharedFragment, hash:17727433854209094255
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::InputComponentSharedUpdate S<InputComponentSharedFragment> S<TransformFragment>, Params StructType Name:UnrealComponent::TransformFragment, hash:2100330226517032767
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:ProcessLocalAuthenRequest, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:PlayerComponent::AuthenRequest, hash:7816445068676954195
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @ViewSystem::ProcessLocalAuthenRequest S<MassEntityUniqueID> S<AuthenRequest> CS<LocalRequestTag>, Params StructType Name:UnrealComponent::LocalRequestTag, hash:18291527172193797667
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass:UpdateClientLoginStatus, m_isTimeOutFunc: false, m_szType: , isSystemSkip: false
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::MassEntityUniqueID, hash:16003234206727950904
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::LoginDataFragment, hash:4687296893721482926
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]FLEcsInit GetEsPassFuncTables pass name: @main::UpdateClientLoginStatus CS<MassEntityUniqueID> CS<LoginDataFragment> CS<ServerEntityTag>, Params StructType Name:UnrealComponent::ServerEntityTag, hash:14864919094743977851
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]Das ScriptInit raojm
+[AURORA_LOG][INFO][18:10:04 ][module_ecs.cpp:547] [L]ScriptInit ullOwnerEntityUniqueID: 0x3
+[AURORA_LOG][INFO][18:10:28 ][module_ecs.cpp:547] [L]Das ScriptUnload
+[AURORA_LOG][INFO][18:10:28 ][module_ecs.cpp:547] [L]Das true
+[AURORA_LOG][KEY][18:10:28 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:10:28 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:10:28 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:10:28 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:10:28 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+
+[AURORA_LOG][INFO][18:10:28 ][module_ecs.cpp:547] [L]GameScriptUnload error: nullptr == g_pstScriptUnloadFunction
+[AURORA_LOG][KEY][18:10:28 ][auroragame_app.cpp:177] [ExitInstance]AuroraGameApp::ExitInstance 
+

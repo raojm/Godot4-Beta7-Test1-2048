@@ -3,7 +3,7 @@ class_name Board
 
 signal combine_event_happend(final_value)
 
-var scene_element : PackedScene = preload("res://src/main/element/Element.tscn")
+var scene_element : PackedScene = preload("res://scenes/element/Element.tscn")
 
 @export var element_size : Vector2i = Vector2i(64, 64)
 
@@ -84,7 +84,7 @@ func handle_move(_move_direction : Vector2i):
 			if element.is_blank:
 				continue
 			pos_in_board += _move_direction
-			var is_neighbour := true
+			var _is_neighbour := true
 			while elements.has(pos_in_board):
 				var element_to : Element = elements.get(pos_in_board)
 				if !element_to.is_blank:
@@ -104,7 +104,7 @@ func handle_move(_move_direction : Vector2i):
 		element_to.is_blank = false
 		combine_events.append(element_to)
 	
-	var move_map := {}
+	var _move_map := {}
 	while true:
 		await get_tree().create_timer(0.01).timeout
 		var elements_can_move : Array = get_elements_can_move(_move_direction)
